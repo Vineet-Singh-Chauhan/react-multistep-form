@@ -34,7 +34,7 @@ body{
 @media(max-width:600px)
 {
   .app__formHolder{
-    min-width:90vw;
+    min-width:95vw;
   }
 }
 
