@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UserState from "./context/user/userState";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Profile from './components/profile/Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     
+    <UserState>
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />} />
+      <Route path='/user' element={<Profile />} />
+    </Routes>
+    
+    </BrowserRouter>
+    </UserState>
   </React.StrictMode>
 );
 

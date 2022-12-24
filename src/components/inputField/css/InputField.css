@@ -1,0 +1,52 @@
+/* .input__holder
+{
+    margin: 20px 0;
+} */
+
+/* .input__label, .input__label > div > input
+{
+    font-size:1rem;
+} */
+
+/* .input__label
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+/* .label__text
+{
+    font-weight: 700;
+} */
+/* .input__grp
+{
+    flex: 1;
+    margin:10px 0 ;
+} */
+/* .input
+{
+    width: 100%;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid #2c86e1;
+    background-color: transparent;
+} */
+
+/* .input__status
+{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between; */
+    /* visibility:hidden; */
+    /* align-items: center; */
+/* } */
+/* .input__status > .msg
+{
+    font-size: small;
+} */
+/* ::-webkit-outer-spin-button,
+::-webkit-inner-spin-button
+{
+    display: none;
+} */

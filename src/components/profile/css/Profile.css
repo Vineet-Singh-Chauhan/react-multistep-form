@@ -1,0 +1,30 @@
+.profile{
+    padding : 10px 50px;
+    min-height: 100vh;
+
+    background-image: url(../../../assets//images//bg.webp);
+    background-color: #292a2d;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.node
+{
+    padding: 15px  10px ;
+    background-color: #f0f0f0;
+
+    
+    display: flex ;
+    align-items: center;
+}
+.node > span
+{
+    font-size: 1.2rem;
+    margin-right: 10px ;
+    font-weight: 600;
+}

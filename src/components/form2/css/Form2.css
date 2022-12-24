@@ -1,0 +1,26 @@
+.Form2{
+    /* background: rgb(199, 199, 199); */
+    width:80%;
+}
+.Form2 > .personalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.Form2 > .personalInfo > div 
+{
+    width:50%;
+    
+}
+
+.Form2 > .gender__field
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Form2 > .gender__field__heading
+{
+    font-weight: 700;
+}

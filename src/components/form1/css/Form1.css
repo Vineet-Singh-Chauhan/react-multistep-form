@@ -1,0 +1,30 @@
+.form1
+{
+    width:80%;
+}
+
+.form1 > .personalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+}
+
+.form1 > .personalInfo > div 
+{
+    width:50%;
+    
+}
+
+.form1 > .gender__field
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.form1 > .gender__field__heading
+{
+    font-weight: 700;
+}
+
