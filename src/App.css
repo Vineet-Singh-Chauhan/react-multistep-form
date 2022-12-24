@@ -31,6 +31,12 @@ body{
   padding: 0px 0px 20px 0px;
   margin:100px 0;
 }
+@media(max-width:600px)
+{
+  .app__formHolder{
+    min-width:90vw;
+  }
+}
 
 .form__top
 {
@@ -60,7 +66,7 @@ body{
 }
 .form__top__forwardBtn
 {
-  right:20px;
+  right:10px;
 
 }
 .form__top__backBtn:hover,.form__top__forwardBtn:hover{
@@ -227,7 +233,7 @@ input[type='file'] {
 {
   display: flex;
   justify-content: center;
-  width: fit-content;
+  /* width: fit-content; */
 }
 .radio__label>input
 {
@@ -248,11 +254,24 @@ select
   background: #ffffff81;
   font-size: 1.1rem;
 }
+
+.form1
+{
+    width:80%;
+}
+
 @media(max-width:700)
 {
+  .app__body{
+    padding:0px;
+  }
   .gender__field,.gender__field__heading
   {
     display: flex;
     flex-direction: column;
   }
+  .app__formHolder
+{
+    width:100Vw;
+}
 }

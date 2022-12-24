@@ -3,6 +3,7 @@ import React , {useContext} from "react";
 import userContext from "../../context/user/userContext";
 //css
 import "../../App.css";
+// import "../../components/form1/css/Form1.css";
 
 const Form2 = () => {
   const user = useContext(userContext) ;
